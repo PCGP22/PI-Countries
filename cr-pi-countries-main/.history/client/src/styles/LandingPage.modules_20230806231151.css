@@ -1,0 +1,22 @@
+.landingPage__container{
+    display: grid;
+    grid-template-areas: "aside aside main";
+}
+
+.landingPage__main{
+    padding: 15px;
+    grid-area: main;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+.landingPage__image{
+    width: 100%;
+
+}
+
+.landingPage__aside{
+    grid-area: "aside";
+}

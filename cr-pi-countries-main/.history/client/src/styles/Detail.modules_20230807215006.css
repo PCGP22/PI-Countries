@@ -1,0 +1,21 @@
+.detail__container{
+    padding:2%;
+    display:grid;
+    gap:15px;
+    grid-template-areas: "main aside aside";
+}
+.detail__aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activityPage__main{
+    grid-area: main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

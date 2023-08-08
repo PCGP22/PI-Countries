@@ -1,0 +1,8 @@
+.landingPage__main{
+    background: var(--dark-purple);
+}
+
+.title-text{
+    font-weight: 800;
+    font-size: 2em;
+}

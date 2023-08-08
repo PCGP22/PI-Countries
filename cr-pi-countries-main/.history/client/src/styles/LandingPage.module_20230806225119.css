@@ -1,0 +1,7 @@
+main{
+    /* background: var(--dark-purple); */
+    border-color: red;
+}
+.dark-purple{
+    background: var(--dark-purple);
+}

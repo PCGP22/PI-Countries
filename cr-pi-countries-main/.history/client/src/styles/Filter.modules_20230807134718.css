@@ -1,0 +1,12 @@
+.filters__container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label{
+    padding-right: 10px;
+}
+option:hover{
+    font-weight: 600;
+}

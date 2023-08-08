@@ -1,0 +1,17 @@
+.filters__container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label{
+    padding-right: 10px;
+}
+select:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+select option:hover{
+    color:red;
+}

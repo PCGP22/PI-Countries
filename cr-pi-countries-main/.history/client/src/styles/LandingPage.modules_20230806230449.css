@@ -1,0 +1,9 @@
+.landingPage__container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.landingPage__main{
+    padding: 15px;
+}
+

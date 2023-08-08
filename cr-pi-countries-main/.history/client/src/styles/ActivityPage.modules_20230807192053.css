@@ -1,0 +1,12 @@
+.activityPage__container{
+    padding:2%;
+    display:grid;
+    grid-template-areas: "aside main main";
+}
+.activityPage__aside{
+    grid-area: aside;
+}
+.activityPage__main{
+    grid-area: main;
+    width: 100%;
+}

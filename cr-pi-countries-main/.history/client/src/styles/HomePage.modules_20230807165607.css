@@ -1,0 +1,9 @@
+.homePage__container{
+    padding: 5%;
+}
+
+.homePage__board{
+    width: 95%;
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+}

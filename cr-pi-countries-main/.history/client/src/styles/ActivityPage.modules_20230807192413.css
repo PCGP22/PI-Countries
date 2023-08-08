@@ -1,0 +1,23 @@
+.activityPage__container{
+    padding:2%;
+    display:grid;
+    grid-template-areas: "aside main main";
+}
+.activityPage__aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.activityPage__form{
+    border: 6px var(--black) solid;
+    border-radius: 16px;
+    background-color: var(--dark-grey);
+}
+
+.activityPage__main{
+    grid-area: main;
+    width: 100%;
+}

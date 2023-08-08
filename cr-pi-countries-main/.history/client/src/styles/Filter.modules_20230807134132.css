@@ -1,0 +1,8 @@
+.filters__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+option{
+    font-family: inherit;
+}

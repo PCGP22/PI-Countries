@@ -1,0 +1,11 @@
+.homePage__container{
+    padding: 2%;
+}
+
+.homePage__board{
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    display:grid;
+    grid-auto-rows: minmax(2,5);
+    grid-auto-columns: minmax(2,5);
+}

@@ -1,0 +1,10 @@
+.filters__container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+option{
+    
+    color:red;
+}

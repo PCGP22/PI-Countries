@@ -1,0 +1,6 @@
+main{
+    border-color: red;
+}
+.dark_purple{
+    background: var(--dark-purple);
+}

@@ -1,0 +1,61 @@
+.homePage__container{
+    padding: 2%;
+}
+
+.homePage__board{
+    background: var(--dark-grey);
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    padding: 2%;
+}
+
+.homePage__countries{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap:10px;
+}
+
+.homePage__card{
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.homePage__cardImg{
+    width: 100%;
+}
+
+.homePage__cardText{
+    color:red;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.pagButton{
+    padding: 2px 8px;
+    border: 4px var(--dark-purple) solid;
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pagButton:not(.pagination__current--button):hover{
+    background-color: var(--purple);
+    color:var(--white);
+}
+
+.pagination__current--button, .pagButton:active{
+    cursor: initial;
+    background-color: var(--dark-purple);
+    color:var(--white);
+}
+
+@media (max-width: 32em){
+    .pagButton{
+        padding:1px 5px;
+    }
+}

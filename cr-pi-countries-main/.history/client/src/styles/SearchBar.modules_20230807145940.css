@@ -1,0 +1,14 @@
+.searchBar__container{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar__button{
+    background-color: var(--purple);
+    font-size: 1em;
+    display: grid;
+    place-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    border: 4px var(--white) solid;
+}

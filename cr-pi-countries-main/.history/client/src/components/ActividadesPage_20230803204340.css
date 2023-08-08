@@ -1,0 +1,13 @@
+  .star{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: #efde23;
+  }
+  .off {
+    color: #ccc;
+  }

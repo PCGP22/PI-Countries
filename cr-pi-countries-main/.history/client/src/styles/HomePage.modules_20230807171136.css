@@ -1,0 +1,17 @@
+.homePage__container{
+    padding: 2%;
+}
+
+.homePage__board{
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.homePage__countries{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%,45%));
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600;800&display=swap');
+
+:root{
+    --black: #222;
+    --dark-purple: #7c3c8f;
+    --purple: #a57db6;
+    --dark-grey: #e0e0e0;
+    --white: #f2f2f2;
+    --light-grey: #f0f0f0;
+
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    color: var(--black)
+}
+
+.button{
+
+}
+
+.purple{
+
+}
+
+.soft-grey{
+
+}
+
+.darker-grey{
+
+}
+
+.black{
+
+}

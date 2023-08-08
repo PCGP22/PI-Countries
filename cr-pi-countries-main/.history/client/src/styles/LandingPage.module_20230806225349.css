@@ -1,0 +1,6 @@
+main{
+    border-color: red;
+}
+.landingPage__main{
+    background: var(--dark-purple);
+}

@@ -1,0 +1,29 @@
+.landingPage__container{
+    display: grid;
+    grid-template-areas: "aside aside main";
+}
+
+.landingPage__main{
+    padding: 15px;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95.9vh;
+    gap:30px;
+}
+
+.landingPage__image{
+    width: 95%;
+    margin: auto;
+
+}
+
+.landingPage__aside{
+    grid-area: aside;
+    display: grid;
+    place-items: center;
+}
+ p, h1{
+    margin: 0;
+ }

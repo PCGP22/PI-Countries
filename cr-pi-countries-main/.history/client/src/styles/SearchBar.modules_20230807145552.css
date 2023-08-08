@@ -1,0 +1,8 @@
+.searchBar__container{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar__button{
+    background-color: var(--purple);
+}

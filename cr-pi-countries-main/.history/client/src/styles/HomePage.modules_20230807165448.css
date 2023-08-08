@@ -1,0 +1,5 @@
+.homePage__main{
+    width: 95%;
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+}

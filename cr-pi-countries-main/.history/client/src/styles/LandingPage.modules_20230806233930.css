@@ -1,0 +1,53 @@
+.landingPage__container{
+    display: grid;
+    grid-template-areas: "aside aside main";
+}
+
+.landingPage__main{
+    height: 95.9vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:45px;
+    grid-area: main;
+}
+
+.landingPage__image{
+    width: 95%;
+    margin: auto;
+}
+
+.landingPage__button{
+    padding: 5px 45px;
+    border: 6px var(--black) solid;
+    border-radius: 16px;
+}
+.landingPage__button:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+.landingPage__button:active{
+    background-color: var(--dark-purple);
+}
+
+.landingPage__aside{
+    display: grid;
+    place-items: center;
+    grid-area: aside;
+}
+
+@media (max-width: 50em){
+    *{color:red;}
+    .landingPage__container{
+        grid-template-areas: "main" "aside";
+        font-size: 1em;
+    }
+    .landingPage__main{
+        height: max-content;
+    }
+    .landingPage__title.title-text{
+        font-size: 2em;
+    }
+
+}
