@@ -1,0 +1,177 @@
+.activityPage__container{
+    padding:2%;
+    display:grid;
+    gap:15px;
+    grid-template-areas: "aside main main";
+}
+.activityPage__aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activityPage__form, .activityContainer{
+    border: 6px var(--black) solid;
+    border-radius: 16px;
+    background-color: var(--dark-grey);
+    padding: 2%;
+    box-shadow: 4px 4px 8px var(--black);
+    min-height: 200px;
+}
+
+.activityPage__countryBox{
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    padding:8px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 6px;
+}
+.activityPage__countryList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activityPage__formSection{
+    border:none;
+    padding-left:0;
+}
+.activityPage__numInput{
+    width: 50px;
+}
+
+.activityPage__closeButton{
+    font-weight: 600;
+    border: 2px var(--black) solid;
+    background-color: red;
+    color:var(--white);
+    padding: 2px 12px;
+    border-radius: 6px;
+    display: grid;
+    place-content: center;
+}
+
+.star{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.star:focus{
+    border: 1px blue solid;
+}
+.on {
+    color: #efde23;
+}
+.off {
+    color: #ccc;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+.form--error{
+    color:red;
+    font-size: 12px;
+}
+
+.activityPage__formButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activityPage__button{
+    padding:4px 12px;
+    border: 2px var(--black) solid;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.activityPage__button{
+    cursor:pointer;
+}
+
+.submitButton{
+    background-color: var(--purple);
+}
+
+.submitButton:hover{
+    background-color: var(--dark-purple);
+    color:var(--white);
+}
+
+.submitButton:active{
+    background-color: var(--black);
+}
+
+.activityPage__main{
+    grid-area: main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activityBox{
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    padding: 8px;
+    box-shadow: 2px 2px 6px var(--black);
+    position: relative;
+    margin:15px;
+}
+
+.activityContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap:10px;
+}
+
+.activityBox__closeButton{
+    position:absolute;
+    top: 6px;
+    right: 12px;
+    padding: 2px 6px;
+    background-color: red;
+    color: white;
+    border: 2px var(--black) solid;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.activityBox__closeButton:hover{
+    cursor:pointer;
+    background-color: rgb(220, 50, 50);
+    
+}
+.activityBox__closeButton:active{
+    background-color: darkred;
+}
+
+.activityBox__editButton{
+    background-color: var(--dark-grey);
+    border: 2px var(--black) solid;
+    border-radius: 6px;
+    padding: 2px 12px;
+    margin-top: 6px;
+}
+
+.activityBox__editButton:hover{
+    background-color:#d0d0d7;
+}
+
+@media(max-width: 41em){
+    select > option, select{
+        width: 250px;
+    }
+    .activityPage__container{
+        font-size: 0.8em;
+        grid-template-areas: "aside" "main";
+    }
+}

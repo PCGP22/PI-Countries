@@ -1,0 +1,25 @@
+.navBar__Container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link_active{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.navBar__link--unactive{
+    color:var(--dark-grey);
+}
+
+.navBar__link--unactive:hover{
+    color: var(--white);
+}
+
+@media(max-width: 33em) {
+    .navBar__Container>a{
+        font-size: 1.2em;
+    }
+}
