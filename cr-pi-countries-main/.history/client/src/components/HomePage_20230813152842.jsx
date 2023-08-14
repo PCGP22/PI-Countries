@@ -1,5 +1,6 @@
 import { connect } from "react-redux"
 import { useState } from 'react'
+import { addCountries, addActivities, nameSearch } from '../redux/actions'
 import Filter from './Filter.jsx'
 import Container from './Container';
 import "../styles/HomePage.modules.css"

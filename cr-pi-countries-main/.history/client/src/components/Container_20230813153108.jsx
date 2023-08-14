@@ -1,16 +1,19 @@
 import { Link } from 'react-router-dom';
 import { connect } from "react-redux"
 import { useEffect, useState } from 'react'
+import { addCountries, addActivities, nameSearch } from '../redux/actions'
 import { slicePage,sliceData } from '../common/Functions';
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 function Container(props) {
- 
+
+    const [reloadAux, setReloadAux] = useState(true)
     const [currentPage, setCurrentPage] = useState(1)
   
     useEffect(() => {
       setCurrentPage(1)
     }, [props.source])
+     
   
     let countries = props.source
     let max = Math.ceil(countries.length/10)
@@ -80,8 +83,17 @@ function Container(props) {
 
 const mapStateToProps = (state) => {
     return {
+        countriesFiltered: state.countriesFiltered,
         errorMessage: state.errorMessage,
     }
 }
 
-export default connect(mapStateToProps,null)(Container)
+const mapDispatchToProps = (dispatch) => {
+    return{
+        addCountries: ()=>{dispatch(addCountries())},
+        addActivities: ()=>{dispatch(addActivities())},
+        nameSearch: (name) => {dispatch(nameSearch(name))}
+
+    }
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Container)

@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { nameSearch } from '../redux/actions'
 import Container from './Container';
 
+
 function SearchResults(props) {
 
   const location = useLocation();
