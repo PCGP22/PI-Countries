@@ -68,7 +68,10 @@
 }
 
 .symbolSearch{
-    transform: translate(0, 2px);
+    /* padding: 2px 0 0 5px; */
+align-self: center;
+justify-self: center;
+    font-weight: 800;
 }
 
 @media (max-width: 90em){
