@@ -17,6 +17,7 @@ This SPA includes the next functionalities:
 - Pagination.
 - Form control by JS.
 - Database and front-end deploy.
+- Testing of postgresql, sequelize and react using Jest.
 
 A couple of captures:<br/>
 <img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-w4E4VOdhU7EmP_Uo26TUwc6ZpjqR3_kCD7gwVzPdOdMua-fmRfmLcNrXXnM4t3zbii8xgoCbB7ORnCmXBZZLjqkGEhsg=s600" alt="Proyect landing page"/><br/>
