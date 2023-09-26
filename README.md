@@ -20,10 +20,10 @@ This SPA includes the next functionalities:
 - Testing of postgresql, sequelize and react using Jest.
 
 A couple of captures:<br/>
-<img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-w4E4VOdhU7EmP_Uo26TUwc6ZpjqR3_kCD7gwVzPdOdMua-fmRfmLcNrXXnM4t3zbii8xgoCbB7ORnCmXBZZLjqkGEhsg=s600" alt="Proyect landing page"/><br/>
+<img src="https://drive.google.com/uc?export=download&id=1ta-1CupdPSGo2RwANjHMQoKHQzveCafd" width="600" alt="Proyect landing page"/><br/>
 Landing Page
 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xXH2-z0O61I3Sp33si35CFcw-8uUYqiFUSHOCrPjARUu8fvx4acKjZRN6r6NL3-_-Qj_1k7q8acnTWDAyNGlQ7WYaa=s600" alt="Proyect HomePage"/><br/>
+<img src="https://drive.google.com/uc?export=download&id=1ZxKdl9yKXpLJadEgfe6isfgAZII4iIhL" width="600" alt="Proyect HomePage"/><br/>
 Home page
 
 <a href="https://countries-pcgp22.up.railway.app/countries/" target="blank" >See the deployed version of the page here</a>
