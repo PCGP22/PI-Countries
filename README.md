@@ -26,4 +26,10 @@ Landing Page
 <img src="https://drive.google.com/uc?export=download&id=1ZxKdl9yKXpLJadEgfe6isfgAZII4iIhL" width="600" alt="Proyect HomePage"/><br/>
 Home page
 
+<img src="https://drive.google.com/uc?export=download&id=1Unb8cPTQsCPrPZaC2J1kMUJ2hhIHTwMp" width="600" alt="Proyect HomePage"/><br/>
+Activity creation
+
+<img src="https://drive.google.com/uc?export=download&id=17z8H1WUrM9H83VH5wRQnT1jRAIaxtb_V" width="600" alt="Proyect HomePage"/><br/>
+Country detail
+
 <a href="https://countries-pcgp22.up.railway.app/countries/" target="blank" >See the deployed version of the page here</a>
