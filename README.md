@@ -31,5 +31,3 @@ Activity creation
 
 <img src="https://drive.google.com/uc?export=download&id=17z8H1WUrM9H83VH5wRQnT1jRAIaxtb_V" width="600" alt="Proyect HomePage"/><br/>
 Country detail
-
-<a href="https://countries-pcgp22.up.railway.app/countries/" target="blank" >See the deployed version of the page here</a>
